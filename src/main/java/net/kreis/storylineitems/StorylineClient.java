@@ -1,4 +1,10 @@
 package net.kreis.storylineitems;
 
-public class StorylineClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class StorylineClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }
