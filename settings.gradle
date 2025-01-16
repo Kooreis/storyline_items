@@ -1,10 +1,17 @@
 pluginManagement {
 	repositories {
+		// Fabric Maven repository for plugin management
 		maven {
 			name = 'Fabric'
 			url = 'https://maven.fabricmc.net/'
 		}
+
+		// Maven Central repository for additional dependencies
 		mavenCentral()
+
+		// Gradle Plugin Portal for standard plugin dependencies
 		gradlePluginPortal()
 	}
 }
+
+rootProject.name = 'StorylineItems'
