@@ -27,6 +27,8 @@ public class CustomItemGroups {
                         entries.add(ModItems.NATURAL_SPARK);
                         entries.add(ModItems.CORPOREAL_SPARK);
                         entries.add(ModItems.VITAL_SPARK);
+                        entries.add(ModItems.DARK_STONE);
+                        entries.add(ModItems.LIGHT_STONE);
                     }).build());
 
     public static final ItemGroup STORYLINE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -34,15 +36,8 @@ public class CustomItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SHIFTING_SCALE))
                     .displayName(Text.translatable("itemgroup.storylineitems.storyline_blocks")).
                     entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.ZY_CUBE);
-                        entries.add(ModBlocks.ZY_CUBE);
-                        entries.add(ModBlocks.PSEUDO_BARRIER);
-                        entries.add(ModBlocks.ZY_CUBE_ALL);
-                        entries.add(ModBlocks.ZY_BRICKS);
                         entries.add(ModBlocks.ZYCHORITE_BLOCK);
                         entries.add(ModBlocks.ZYCHORITE_BRICKS);
-                        entries.add(ModBlocks.ZYCHORIUM_ICE);
-                        entries.add(ModBlocks.ZYCHORIUM_LAMP);
                     }).build());
 
     public static final ItemGroup STORYLINE_GEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

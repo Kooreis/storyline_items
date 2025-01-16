@@ -20,7 +20,8 @@ public class ModItems {
     public static final Item RAW_VERDANITE = registerItem("raw_verdanite", new Item(new Item.Settings()));
     public static final Item RAW_VOLTSHARD = registerItem("raw_voltshard", new Item(new Item.Settings()));
     public static final Item RAW_TIDEGLASS = registerItem("raw_tideglass", new Item(new Item.Settings()));
-
+    public static final Item DARK_STONE = registerItem("dark_stone", new Item(new Item.Settings()));
+    public static final Item LIGHT_STONE = registerItem("light_stone", new Item(new Item.Settings()));
     // Newly added items
     public static final Item SHIFTING_SCALE = registerItem("shifting_scale",
             new Item(new Item.Settings()));
