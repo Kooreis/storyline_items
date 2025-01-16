@@ -1,0 +1,7 @@
+{
+  "parent": "storylineitems:block/basic_machine_top",
+  "textures": {
+    "side": "storylineitems:block/zychorium_soil_side",
+    "top": "storylineitems:block/zychorium_soil_top"
+  }
+}

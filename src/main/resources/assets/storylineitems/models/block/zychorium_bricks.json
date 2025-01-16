@@ -1,0 +1,6 @@
+{
+  "parent": "storylineitems:block/zy_bricks",
+  "textures": {
+    "all": "storylineitems:block/zychorium_bricks"
+  }
+}

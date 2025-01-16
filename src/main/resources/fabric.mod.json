@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kreis.storylineitems.Storylineitems"
+			"net.kreis.storylineitems.StorylineItems"
 		],
 		"fabric-datagen": [
 			"net.kreis.storylineitems.StorylineitemsDataGenerator"
 		],
 		"client": [
-			"net.kreis.storylineitems.StorylineClient"
+			"net.kreis.storylineitems.StorylineItemsClient"
 		]
 	},
 	"mixins": [

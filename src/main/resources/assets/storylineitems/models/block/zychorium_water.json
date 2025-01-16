@@ -1,0 +1,6 @@
+{
+  "parent": "storylineitems:block/basic_machine_side",
+  "textures": {
+    "side": "storylineitems:block/zychorium_water"
+  }
+}
