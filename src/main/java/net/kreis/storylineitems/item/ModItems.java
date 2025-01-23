@@ -9,6 +9,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    //    public static final Item OPAQUE_DISTANCE_BLOCK_ITEM = new BlockItem(ModBlocks.OPAQUE_DISTANCE_BLOCK, new FabricItemSettings());
+    //Check this, might not need to add due to method in ModBlocks
     // Raw gems
     public static final Item RAW_OBLIVIUM = registerItem("raw_oblivium", new Item(new Item.Settings()));
     public static final Item RAW_AMYSTIUM = registerItem("raw_amystium", new Item(new Item.Settings()));

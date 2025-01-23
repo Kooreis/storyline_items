@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "storylineitems:block/opaque_distance_block"
+    }
+  }
+  

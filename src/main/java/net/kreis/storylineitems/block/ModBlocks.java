@@ -20,7 +20,9 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class ModBlocks {
-
+    
+    public static final Block WORLD_BORDER_OPACITY_BLOCK = new WorldBorderOpacityBlock();
+    public static final Block OPAQUE_DISTANCE_BLOCK = new OpaqueDistanceBlock();    
     public static final Block PSEUDO_BARRIER = registerBlock("pseudo_barrier", new BarrierBlock(AbstractBlock.Settings.create()
             .strength(-1.0f, Float.MAX_VALUE) // Makes the block unbreakable
             .noCollision() // Allows entities and projectiles to pass through
@@ -153,7 +155,7 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(StorylineItems.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(StorylineItems.MOD_ID, name), block);   
     }
 
     private static void registerBlockItem(String name, Block block) {
@@ -165,6 +167,8 @@ public class ModBlocks {
         StorylineItems.LOGGER.info("Registering the modded blocks for " + StorylineItems.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(PSEUDO_BARRIER);
+            entries.add(WORLD_BORDER_OPACITY_BLOCK);
+            entries.add(OPAQUE_DISTANCE_BLOCK);
             entries.add(ZY_BRICKS);
             entries.add(ZY_CUBE);
             entries.add(ZY_CUBE_ALL);

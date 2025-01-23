@@ -32,7 +32,8 @@
   "block.storylineitems.zychorium_lamp": "Zichorium Lamp",
   "itemgroup.storylineitems.storyline_gems": "§cStoryline Gems",
   "itemgroup.storylineitems.storyline_blocks": "§cStoryline Blocks",
-  "itemgroup.storylineitems.storyline_items": "§cStoryline Items"
+  "itemgroup.storylineitems.storyline_items": "§cStoryline Items",
+  "block.storylineitems.opaque_distance_block": "Opaque Distance Block"
 }
 
 
